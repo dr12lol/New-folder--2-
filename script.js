@@ -16,6 +16,7 @@ function wait(ms){
 }
 async function changeSize() {
     while (true){
+        
         const size = Math.random() * 50
 
         document.getElementById('titlec').style.fontSize = size+"px"

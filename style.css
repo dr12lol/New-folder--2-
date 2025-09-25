@@ -47,5 +47,9 @@ body{
     width: 150px;
 }
 #titlec {
+  position: absolute;
+  left: 30%;   
+  top: 10%;
+
   transition: font-size 0.5s ease-in-out;
 }
