@@ -64,6 +64,7 @@ body{
 #mars-desc{
     position: absolute;
     left: 30%;
+    width: 400px;
 }
 #mars-desc2{
     position: absolute;
@@ -86,5 +87,7 @@ body{
 }
 #mars-activitydesc{
     position: absolute;
-    top: 400px;
+    top: 500px;
+    left: 100px;
+    width: 600px;
 }
