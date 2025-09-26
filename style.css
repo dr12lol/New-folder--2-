@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8');
+    /* background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8'); */
+    background-image: url('');
     color: white;
 }
 #title{
@@ -50,8 +51,40 @@ body{
     width: 150px;
 }
 #titlec {
+    font-size: 40PX;
   position: absolute;
-  left: 30%;   
+  left: 25%;   
   top: 20%;
   transition: font-size 0.5s ease-in-out;
+}
+#mars{
+    position: absolute;
+    top: 50%;
+}
+#mars-desc{
+    position: absolute;
+    left: 30%;
+}
+#mars-desc2{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 300px;
+}
+#illustrationsmth{
+    position: absolute;
+    top: 50%;
+    left: 900px;
+    width: 400px;
+    height: 300px;
+}
+#mars-activity{
+    transition: 900ms;
+    position: absolute;
+    top: 400px;
+    font-size: xx-large;
+}
+#mars-activitydesc{
+    position: absolute;
+    top: 400px;
 }
