@@ -27,13 +27,15 @@ body{
     position: absolute;
     font-size: 40px;
     top: 20%;
-    left: 230px;
+    left: 530px;
     color: white;
 }
 
 #titleb span {
       display: inline-block;
       animation: wave 1.5s infinite ease-in-out;
+     
+      
 }
 #titleb span:nth-child(1) { animation-delay: 0s; }
 #titleB span:nth-child(2) { animation-delay: 0.1s; }
@@ -51,6 +53,7 @@ body{
     top: 5%;   
     left: 900px;
     width: 150px;
+    height: 150px;
 }
 #titlec {
     font-size: 40PX;

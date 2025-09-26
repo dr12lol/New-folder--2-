@@ -17,7 +17,7 @@ async function changeColours2() {
     while (true){
         const hue = Math.random() * 360
         const brightness = Math.random() * 100
-        const color = `hsl(${hue}, 80%, 50%)`
+        const color = `hsl(${hue}, 80%, 70%)`
         document.getElementById('mars-activity').style.color = color
         await wait(500)
     }
